@@ -4,6 +4,12 @@ import java.sql.Timestamp;
 
 public class Allocategifts {
 	public Allocategifts(Gift[] gifts,Couple[] couples,int k) throws IOException{
+		
+		/**
+		*This class allocate gifts to different types girls who are in relationship with different types of 
+		*boys following the constraints given in the question
+		*/
+		
 		int i;
 		PrintWriter writer = new PrintWriter("logger_2.csv","UTF-8");
 		Getname getname = new Getname();
