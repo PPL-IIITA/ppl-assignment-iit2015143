@@ -4,14 +4,6 @@ import java.io.*;
 public class Csvgenerator{
 	public static void main(String args[]){
 
-
-	/*
-		This is a work of fiction. Names are products of the coder’s 
-		imagination or are used fictitiously. Any resemblance to actual 
-		names of persons, living or dead, is entirely coincidental.
-										*/
-
-
 		String[] girls={"Ritika","Riddhima","Vaishnavi","Arpita","Nikita","Deepika"};
 		String[] boys = {"Anurag","Shyam","Katta","Santosh","Ankit","Sarwar","Vidya","Raghav","Rachit","Pawan","Ramu","Raju"}; 
 
