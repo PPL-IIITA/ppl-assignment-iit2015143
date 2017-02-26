@@ -3,7 +3,9 @@ import java.io.*;
 
 public class Csvgenerator{
 	public static void main(String args[]){
-
+		
+		//This class is generating csv file with the given name and randomly generated attributes
+		
 		String[] girls={"Ritika","Riddhima","Vaishnavi","Arpita","Nikita","Deepika"};
 		String[] boys = {"Anurag","Shyam","Katta","Santosh","Ankit","Sarwar","Vidya","Raghav","Rachit","Pawan","Ramu","Raju"}; 
 
