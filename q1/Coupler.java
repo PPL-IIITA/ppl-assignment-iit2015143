@@ -3,6 +3,8 @@ import java.io.*;
 import java.sql.Timestamp;
 
 public class Coupler{
+	
+	//This class is coupling girls with boys
 	public static void main(String args[]) throws IOException{
 		Boy boys[] = new Boy[12];
 		Girl girls[] = new Girl[6];
@@ -10,12 +12,12 @@ public class Coupler{
 		BufferedReader br = new BufferedReader(new FileReader("boys.csv"));
 		String line;
 		int i=0,j=0;
+		
+		//creating boys array with attributes taken from csv file which was generated randomly
 		while ((line = br.readLine()) !=null){
 			String[] array = line.split(",");
 			boys[i] = new Boy(array[0],Integer.parseInt(array[1]),Integer.parseInt(array[2]),
-			Integer.parseInt(array[3]),Integer.parseInt(array[4]));/*
-			System.out.println(array[0]+Integer.parseInt(array[1])+Integer.parseInt(array[2])+
-                        Integer.parseInt(array[3])+Integer.parseInt(array[4]));*/
+			Integer.parseInt(array[3]),Integer.parseInt(array[4]));
 			i++;
 		}
 		br.close();  
@@ -30,7 +32,7 @@ public class Coupler{
                 br.close();
 		PrintWriter writer = new PrintWriter("logger.csv","UTF-8");
 		
-		
+		//coupling girls with boys with given constraints
 		for(i=0; i<6; i++){
 			for(j=0; j<12; j++){
 				Date date = new Date();
