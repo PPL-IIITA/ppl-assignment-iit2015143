@@ -1,0 +1,35 @@
+\hypertarget{classCouple}{}\section{Couple Class Reference}
+\label{classCouple}\index{Couple@{Couple}}
+
+
+Collaboration diagram for Couple\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCouple_a278e2c0c9ab6b93aba6b2abaaeceb6c6}{Couple} (\hyperlink{classBoy}{Boy} a, \hyperlink{classGirl}{Girl} b)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class defines attributes of a couple and has a constructor method
+
+\begin{DoxyAuthor}{Author}
+Anurag Kumar 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Couple@{Couple}!Couple@{Couple}}
+\index{Couple@{Couple}!Couple@{Couple}}
+\subsubsection[{\texorpdfstring{Couple(\+Boy a, Girl b)}{Couple(Boy a, Girl b)}}]{\setlength{\rightskip}{0pt plus 5cm}Couple.\+Couple (
+\begin{DoxyParamCaption}
+\item[{{\bf Boy}}]{a, }
+\item[{{\bf Girl}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classCouple_a278e2c0c9ab6b93aba6b2abaaeceb6c6}{}\label{classCouple_a278e2c0c9ab6b93aba6b2abaaeceb6c6}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Couple_8java}{Couple.\+java}\end{DoxyCompactItemize}

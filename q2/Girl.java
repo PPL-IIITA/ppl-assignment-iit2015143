@@ -1,0 +1,22 @@
+/**
+* This class defines attributes of a girl and has
+* a constructor method
+* @author  Anurag Kumar 
+*/
+
+public class Girl{
+	String name;
+	int attractiveness;
+	int main_budget;
+	int intelligence;
+	String bf_name;
+	int type;
+	public Girl(String na, int attr,int main,int in){
+		name = na;
+		attractiveness= attr;
+		main_budget = main;
+		intelligence = in;
+		bf_name="";
+		type = (int)(Math.random()*3);
+	}
+}
